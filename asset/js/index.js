@@ -131,7 +131,7 @@ class Heart {
 }
 
 let lastBeatTime = performance.now();
-const BEAT_INTERVAL = 100;
+const BEAT_INTERVAL = 60;
 let currentFrame = 0;
 const heart = new Heart();
 let lastTime = performance.now();
