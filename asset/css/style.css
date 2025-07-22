@@ -18,7 +18,7 @@ div{
     position: relative;
     justify-content: center;
     align-items: center;
-    background-color: #f4acb7;
+    background-color: black;
 }
 
 svg{
@@ -37,17 +37,23 @@ h1{
      z-index: 2;
 }
 
+#blabla{
+    position: absolute;
+    z-index: 1;
+}
+
 .heartbeat {
   animation: pulse 1s infinite;
   transform-origin: center center;
   transform-box: fill-box;
 }
 
+
 @keyframes pulse {
   0%, 100% {
-    transform: scale(0.2);
+    transform: scale(1);
   }
   50% {
-    transform: scale(0.25);
+    transform: scale(1.1);
   }
 }
